@@ -1,44 +1,10 @@
 # Advanced-Prompt-Engineering
 
-a) Write a colab illustrating all the various prompt engineering techniques discussed in the class with gpt 4 or gpt 3.5
+This project aims to comprehensively explore prompt engineering techniques for OpenAI's language models.
 
-You should illustrate failure cases and how these are solved by various prompting techniques
-
-include
-
-ICL
-CoT
-iCOT,
-TOT,
-GOT,
-AOT,
-RASCEF,
-REACT,  (https://til.simonwillison.net/llms/python-react-pattern#:~:text=The%20ReAct%20pattern%20(for%20Reason,results%20back%20into%20the%20LLM.)  forest of thoughts  (with langchain - https://www.linkedin.com/posts/richard-walker-a18528_forest-of-thoughts-boosting-large-language-activity-7073925128778067968-xAHN/Links to an external site.)
-https://github.com/mazewoods/tree-of-thought-ui
-b) Write 21 different prompt templates in class slides practical examples in colab (success and failur cases)   - check slide deck etc.,. https://www.promptingguide.ai/papersLinks to an external site.
-
-and the below patterns from https://arxiv.org/pdf/2302.11382.pdf
-
-Screenshot.png
-
-c)  Pick 10 diverse fields (like hr, teaching, finance etc..,) and write three very useful diverse prompts for each field with test cases.   
-
- 
-
-Follow best practices in https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-apiLinks to an external site.
-
- 
-
-d) Implement the https://platform.openai.com/examplesLinks to an external site. for palm 2 api. 
-
- 
-
-in colab
-
- 
-
-e) write function calls api example colab usecase of openai
-
- 
-
-f) write system prompt example usecase of openai
+- **Section A (Prompting Paradigms)**: Demonstrated through Colab notebooks located in notebooks/colab_examples/ showcasing various prompting paradigms (ICL, CoT, etc.) with both successful applications and failure cases.
+- **Section B (Prompt Templates)**: Explores and showcases 21 diverse prompt templates within the notebooks/prompt_templates.ipynb notebook.
+- **Section C (Field-Specific Prompts)**: Develops tailored prompts for ten diverse fields (HR, teaching, finance) located in data/fields_prompts.json, accompanied by test cases.
+- **Section D (Palm 2 API Implementation)**: Implements OpenAI's Palm 2 API in Colab, showcasing its capabilities through concrete examples within notebooks/api_examples.ipynb.
+- **Section E (API Function Calls & Use Cases)**: Demonstrates API function calls and practical use cases for interacting with the OpenAI API, also found in notebooks/api_examples.ipynb.
+- **Section F (System Prompt Examples)**: Provides practical examples of system prompts and their applications within the OpenAI ecosystem, details likely incorporated within notebooks/api_examples.ipynb.
