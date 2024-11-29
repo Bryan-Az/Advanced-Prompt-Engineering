@@ -1,0 +1,1 @@
+This section has a directory of notebooks demonstrating each prompting technique (ICL, CoT, iCoT, TOT, GOT, AOT, RASCEF, REACT, Forest of Thoughts).

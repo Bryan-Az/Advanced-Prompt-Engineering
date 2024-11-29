@@ -1,0 +1,1 @@
+This is where the structured JSON data structures are stored for a diverse set of prompts categorized by field (HR, Teaching, Finance, etc.). This promotes organization and easy retrieval.
