@@ -1,0 +1,42 @@
+[
+    {
+        "condition": "When the arguments escalate and affect team productivity",
+        "requested_action": "Mediation"
+    },
+    {
+        "condition": "When there is a need to refresh the brand and attract a new customer base",
+        "requested_action": "Market Research"
+    },
+    {
+        "condition": "When a customer expresses dissatisfaction with their meal",
+        "requested_action": "Customer Service"
+    },
+    {
+        "condition": "When a patient shows resistance to following their prescribed treatment plan",
+        "requested_action": "Patient Education"
+    },
+    {
+        "condition": "When a patient shows resistance to following their prescribed treatment plan",
+        "requested_action": "Patient Education"
+    },
+    {
+        "condition": "When there is a breaking news story that needs to be verified",
+        "requested_action": "Verification"
+    },
+    {
+        "condition": "When preparing for a public exhibition of rare books and manuscripts",
+        "requested_action": "Curation"
+    },
+    {
+        "condition": "When a client seeks help with anxiety and stress management",
+        "requested_action": "Music Relaxation"
+    },
+    {
+        "condition": "When a client seeks help with anxiety and stress management",
+        "requested_action": "Music Relaxation"
+    },
+    {
+        "condition": "When there are signs of neglect or abuse in a child's home environment",
+        "requested_action": "Child Welfare Assessment"
+    }
+]

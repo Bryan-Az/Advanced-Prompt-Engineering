@@ -1,0 +1,10 @@
+[
+    {
+        "input_data": "Urban gardening space and soil analysis",
+        "expected_output": "Increased crop yield and improved soil health"
+    },
+    {
+        "input_data": "Climate data from various sources",
+        "expected_output": "Predictive models for future climate scenarios"
+    }
+]
