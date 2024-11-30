@@ -1,0 +1,21 @@
+{
+  "domain_1": [
+    {
+      "prompt_1_components": {
+        "prompt": "prompt text with question, variable_1 is text, variable_2 is 0.",
+        "data_context": {
+          "variable_1": "text",
+          "variable_2": 0
+        },
+      }
+      "test_case": {
+        "eval_prompt_1": "eval prompt with question, variable_1 is text_1, variable_2 is 1."
+        "data_context": {
+          "variable_1": "text_1",
+          "variable_2": 1
+        },
+        "expected_output": "response text with answer, making reference to variable_1 as text_1 and variable_2 as 1"
+      } 
+    }
+  ]
+}
