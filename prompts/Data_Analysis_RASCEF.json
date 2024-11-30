@@ -1,0 +1,18 @@
+{
+    "role": "Expert Data Analyst", 
+    "action": "Analyze and Summarize Customer Feedback",
+    "steps": [
+      "1. Identify key themes and sentiment in the customer feedback data.",
+      "2. Quantify positive, negative, and neutral sentiment scores.",
+      "3. Group feedback by product category or feature.",
+      "4. Generate a concise summary highlighting major findings and actionable insights."
+    ],
+    "context": "The customer feedback dataset consists of 1000+ reviews collected from various online platforms.",
+    "examples": [
+      {
+        "input_data": "Example customer review data (text)",
+        "expected_output": "Summary of key themes, sentiment analysis results, and actionable insights"
+      }
+    ],
+    "format": "The output should be a structured report with clear headings, concise bullet points, and visualizations (e.g., charts) to illustrate the findings." 
+  }  

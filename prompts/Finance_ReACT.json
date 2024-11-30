@@ -1,0 +1,25 @@
+{ 
+  "prompt": "You are a Financial Analyst reviewing this quarterly report:\n\n[Link to Quarterly Report]\n\nIdentify any potential red flags or areas of concern regarding profitability and cash flow. Suggest recommendations for improvement based on your analysis.",
+  "actions": [
+    {
+      "name": "Extract Key Metrics",
+      "description": "Pull specific financial data points from the report, such as revenue, expenses, net income, and cash flow from operations.",
+      "result_format": "Table of extracted key metrics with corresponding values."
+    },
+    {
+      "name": "Industry Benchmarking",
+      "description": "Compare the company's financial performance to industry averages or competitor data.",
+      "result_format": "Summary table comparing key metrics to industry benchmarks and competitor performance."
+    }
+  ],
+  "action_requests": [ 
+    {
+      "condition": "The report does not explicitly state net income or cash flow from operations.",
+      "requested_action": "Extract Key Metrics" 
+    },
+    {
+      "condition": "Significant deviations are observed between the company's performance and industry benchmarks.",
+      "requested_action": "Industry Benchmarking" 
+    }
+  ] 
+}
