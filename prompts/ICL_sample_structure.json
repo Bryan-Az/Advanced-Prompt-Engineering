@@ -2,7 +2,7 @@
   'domain_1': [
     {
       'prompt_1_components': {
-        "prompt": "prompt text with question, variable_1 is text, variable_2 is 0.",
+        'prompt': "prompt text with question, variable_1 is text, variable_2 is 0.",
         'data_context': {
           'variable_1': "text",
           'variable_2': 0
