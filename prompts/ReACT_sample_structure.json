@@ -1,0 +1,17 @@
+{
+    "prompt": "[Initial question or task]", 
+    "actions": [
+      {
+        "name": "[Action Name]", 
+        "description": "[Brief description of what the action does]",
+        "result_format": "[Format of the result]" 
+      }
+    ],
+    "action_requests": [ 
+      {
+        "condition": "[Condition for triggering the action]",
+        "requested_action": "[Name of the action to perform]"
+      }
+    ] 
+  }
+  
