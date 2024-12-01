@@ -1,1 +1,0 @@
-Contains test cases for objectively evaluating the quality and performance of the prompts (e.g., using perplexity and BLEU score).

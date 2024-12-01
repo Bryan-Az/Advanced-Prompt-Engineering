@@ -2,12 +2,12 @@
 This project aims to comprehensively explore prompt engineering techniques for OpenAI's language models.
 
 ## Directory Description
-- **Section A (Prompting Paradigms)**: Demonstrated through Colab notebooks located in notebooks/prompt_techniques/ showcasing various prompting paradigms (ICL, RASCEF, ReACT, Chain of Thought) with both successful applications and failure cases.
-- **Section B (Prompt Templates)**: Explores and showcases 21 diverse prompt templates within the notebooks/prompt_templates.ipynb notebook.
-- **Section C (Prompts by Use-case)**: User and System Prompts generated for ten diverse fields (HR, teaching, finance) are located in prompts/field_specific_prompts.json, accompanied by test cases in utils/.
-- **Section D (Palm 2 API Implementation)**: Implements OpenAI's Palm 2 API in Colab, showcasing its capabilities through examples within notebooks/api_examples.ipynb.
-- **Section E (API Function Calls & Use Cases)**: Demonstrates API function calls using the generated prompts as practical use cases for interacting with the OpenAI API, also found in notebooks/api_examples.ipynb.
-- **Section F (System Prompt Examples)**: Provides practical examples of system prompts within notebooks/api_examples.ipynb.
+- **Section A (Prompting Paradigms)**: Demonstrated through Colab notebooks located in notebooks/ showcasing various prompting paradigms (ICL, RASCEF, ReACT, Chain of Thought, Tree of Thought) with both successful applications and failure cases.
+- **Section B (Prompt Templates)**: Explores and showcases 21 diverse prompt templates within prompts/generated_prompts.
+- **Section C (Prompts by Use-case)**: User and System Prompts generated for ten diverse fields (HR, teaching, finance) are also located in prompts/generated_prompts.
+- **Section D (Palm 2 API Implementation)**: Implements OpenAI's API in Colab, showcasing its capabilities through examples within notebooks/.
+- **Section E (API Function Calls & Use Cases)**: Demonstrates API function calls using the generated prompts as practical use cases for interacting with the OpenAI API, also found in notebooks/
+- **Section F (System Prompt Examples)**: Provides practical examples of the sample structure for system prompts within prompts/.
 ## References
 
 [REACT Pattern](https://til.simonwillison.net/llms/python-react-pattern#:~:text=The%20ReAct%20pattern%20\(for%20Reason,results%20back%20into%20the%20LLM)
