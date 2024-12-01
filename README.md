@@ -9,9 +9,6 @@ This project aims to comprehensively explore prompt engineering techniques for O
 - **Section E (API Function Calls & Use Cases)**: Demonstrates API function calls using the generated prompts as practical use cases for interacting with the OpenAI API, also found in notebooks/api_examples.ipynb.
 - **Section F (System Prompt Examples)**: Provides practical examples of system prompts within notebooks/api_examples.ipynb.
 ## References
-[Forest of Thought with LangChain Video Explanation](https://www.youtube.com/watch?v=y6SVA3aAfco)
-
-[Forest of Thought Implementation by Agora](https://github.com/mazewoods/tree-of-thought-ui)
 
 [REACT Pattern](https://til.simonwillison.net/llms/python-react-pattern#:~:text=The%20ReAct%20pattern%20\(for%20Reason,results%20back%20into%20the%20LLM)
 
@@ -24,3 +21,7 @@ This project aims to comprehensively explore prompt engineering techniques for O
 [OpenAI for Field Specific Prompt Engineering](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
 
 [OpenAI Palm2 API Implementation Reference](https://platform.openai.com/examples)
+
+[Forest of Thought with LangChain Video Explanation](https://www.youtube.com/watch?v=y6SVA3aAfco)
+
+[Forest of Thought Implementation by Agora](https://github.com/mazewoods/tree-of-thought-ui)
